@@ -339,10 +339,10 @@ section {
 
     .nav {
         position: absolute;
-        top: 65px;
+        top: 74.11765px;
         right: -100%;
         width: 250px;
-        height: 25vh;
+        height: 19vh;
         /* background: #ff9d00; */
         background: rgba(0, 0, 0, 0.7);
         display: flex;
@@ -350,7 +350,7 @@ section {
         flex-direction: column;
         padding: 30px 20px;
         transition: all .55s ease;
-        border-radius: 0 0 0 50%;
+        border-radius: 0 0 0 75px;
     }
 
     .nav a {
@@ -376,6 +376,7 @@ section {
     .img-slider {
         width: 405px;
         height: 259px;
+        /* margin-top: -100px; */
     }
 }
 @media(max-width: 463px){
@@ -398,5 +399,8 @@ section {
     }
     .foods .box-container .box .content p{
         font-size: 1.2rem;
+    }
+    .footer .credit{
+        font-size: 0.75rem;
     }
 }
